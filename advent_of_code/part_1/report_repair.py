@@ -10,4 +10,4 @@ def report(num):
     return "There does not seem to be a match for that input sadge :("
 
 
-print(report(2221))
+print(report(2020))
