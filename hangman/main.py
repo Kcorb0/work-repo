@@ -96,11 +96,12 @@ def hangman(word):
 
 print(
     f"""
-###------------------###
-### HARDCORE HANGMAN ###
-###------------------###
-{hangman_body[0]}"""
+    ###------------------###
+    ### HARDCORE HANGMAN ###
+    ###------------------###
+    {hangman_body[0]}"""
 )
+
 word = getpass("What is the word? ")
 
 print(hangman(word))
