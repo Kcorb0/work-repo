@@ -1,6 +1,6 @@
 def report(num):
 
-    inp_file = [int(i) for i in open("part_1/inputs.txt", "r")]
+    inp_file = [int(i) for i in open("advent_of_code/part_1/inputs.txt", "r")]
 
     for i in inp_file:
         for j in inp_file:
