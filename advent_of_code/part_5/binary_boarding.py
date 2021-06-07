@@ -38,6 +38,7 @@ decoded_passes.sort()
 
 # Part 1 Answer
 print(f"Part 1: {max(decoded_passes)}")
+
 # Part 2 Answer
 for idx, i in enumerate(decoded_passes):
     if decoded_passes[idx] + 1 != decoded_passes[idx + 1]:
